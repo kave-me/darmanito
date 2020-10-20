@@ -480,15 +480,30 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;}
-.support-area > button{
-    align-self: center;
+.support-area  button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: white;
     border: none;
-    background-color: rgb(9,141,255);
-    font-size: 20px;
+    background-color: rgb(35,97,181);
+    font-size: 16px;
     width: 240px;
     height: 60px;
     border-radius: 10px;
+}
+.support-area-container {
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+}
+.support-area-container p{
+    padding-right: 10px;
 }
 
 @font-face {
