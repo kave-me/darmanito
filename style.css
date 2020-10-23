@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: Vazir;
 }
+.hamburger-menu {
+    display: none;
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -659,25 +662,9 @@
     font-weight: normal;
     }
 
-@media only screen and (max-width: 1060px) {
-    .hamburger-menu input
-    {
-        display: block;
-        width: 40px;
-        height: 32px;
-        position: absolute;
-        top: 17px;
-        left: 72px;
-        
-        cursor: pointer;
-        
-        opacity: 0; /* hide this */
-        z-index: 2; /* and place it over the hamburger */
-        
-        -webkit-touch-callout: none;
-    }
 
-   
+    
+@media only screen and (max-width: 1060px) {   
     .nav-download-bt {
         display: none;
     }
@@ -799,6 +786,55 @@
     .android-logo {
         display: none;
     }
+    .register-area-box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .register-area-text {
+        padding-bottom: 3rem;
+
+    }
+    .register-area-input {
+        margin-right: 5%;
+    }
+    .support-area {
+        height: 12rem;
+    }
+    .support-area-container {
+        flex-direction: column;
+    }
+    .support-area-text {
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 1rem;
+
+    }
+    .support-area button {
+        width: 300px;
+        height: 120px;
+        /* margin-top: 2rem;
+        margin-bottom: 2rem; */
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-info-text {
+        direction: rtl;
+
+    }
+    .footer-services, .footer-pages, .footer-download {
+        display: none;
+    }
+    .footer-info-sm-icons {
+        display: none;
+    }
+    /* .support-area-text > h3{
+        margin-left: auto;
+        margin-right: auto;
+    } */
 }
+
+
 /* FVFZM2F8L411
 MUHQ2LL/A */
